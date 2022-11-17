@@ -2,12 +2,12 @@ package main
 
 import (
 	"context"
-	"geerpc"
-	"geerpc/registry"
-	"geerpc/xclient"
 	"log"
 	"net"
 	"net/http"
+	"onlyRPC"
+	"onlyRPC/registry"
+	"onlyRPC/xclient"
 	"sync"
 	"time"
 )
